@@ -10,6 +10,7 @@ def sigmoid(z):
 
 #this is to make binary file of the data. only needs to be run once.
 if 0 :
+    # dataset used : cats and dogs dataset for binary classification from kaggle
     # define location of dataset
     folder = 'train/'
     photos, labels = list(), list()
